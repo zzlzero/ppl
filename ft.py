@@ -87,7 +87,7 @@ overwrite_output_dir = False
 per_device_train_batch_size = 8
 num_train_epochs = 20
 save_steps = 500
-output_dir = './test/epoch={}'.format(num_train_epochs)
+output_dir = './new_exp/epoch={}'.format(num_train_epochs)
 
 train(
     model=peft_model,
